@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/etBookingWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="(ex: Meeting)"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="20dp"
+       />
+
+    <Button
+        android:id="@+id/btnChsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Choose" />
+
+    <EditText
+        android:id="@+id/etBookingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter Date"
+        android:inputType="date"
+         />
+
+    <Button
+        android:id="@+id/btnChsTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/etBookingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Enter Time"
+        android:layout_gravity="center"
+        android:inputType="time"
+        />
+
+
+    <Button
+        android:id="@+id/btnBookingSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/etBookingWork"
+        app:layout_constraintTop_toBottomOf="@+id/etBookingWork" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+
+</LinearLayout>

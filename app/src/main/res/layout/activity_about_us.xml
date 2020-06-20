@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:layout_gravity="center"
+            android:text="Salon"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#6d0d0c"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvMultilineText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:text="Slot booking is the process to select date and time for the online exam based on your preference of exam center at one or more locations. Slot for the online exam is booked on first cum first server basis."
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:textStyle="normal"/>
+        <Button
+            android:id="@+id/btnAboutUsBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+
+</ScrollView>

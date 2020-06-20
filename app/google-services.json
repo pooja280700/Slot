@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141071544904",
+    "firebase_url": "https://slot-db39e.firebaseio.com",
+    "project_id": "slot-db39e",
+    "storage_bucket": "slot-db39e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141071544904:android:574bf1edda05e12b15de7d",
+        "android_client_info": {
+          "package_name": "com.example.slot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141071544904-nphfnqdva1drmdgq9u8d562i76b36bfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.slot",
+            "certificate_hash": "11d0170b2c632d6ca1e290a162a4276264a627fb"
+          }
+        },
+        {
+          "client_id": "141071544904-c48tvr2i8aivl4led3rtpdnviag7srb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAgMAK8PpJjR-TDRDRMnEIV74p5JR57G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141071544904-c48tvr2i8aivl4led3rtpdnviag7srb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
